@@ -1,0 +1,136 @@
+<style> /* Estilo Unico: */
+
+    body {
+        background-image: url(../css/img/background_53876.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    body {
+        color: #f7f309;
+        font: 100% Lucida Sans, Tahoma;
+        margin: 20px;
+        line-height: 26px;
+    }
+
+    .container {
+        xmin-width: 900px;
+        background-image:url("unnamed.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .wrapper {
+        position: relative;
+        overflow: auto;
+    }
+
+    #top, #sidebar, #bottom, .menuitem {
+        border-radius: 4px;
+        margin: 4px;
+    }
+
+    #top {
+         background-color: #0704a3; 
+        text-shadow: 4px 4px #0c0c0c;
+        color: #ffe605;
+        padding: 15px;
+    }
+
+    #menubar {
+        width: 200px;
+        float: left
+    }
+
+    #main {
+        padding: 10px;
+        margin: 0 210px;
+    }
+
+    #sidebar {
+        background-color: #9ff5ee;
+        color: #2a2177;
+        padding: 10px;
+        width: 180px;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+
+    #bottom {
+        border: 5px solid #d4d4d4;
+        background-color: #06047e;
+        text-align: center;
+        padding: 10px;
+        font-size: 70%;
+        line-height: 15px;
+        border-style: groove;
+    }
+
+    #menulist {
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#0c10f1 ;
+    }
+
+    #top h1, #top p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menuitem {
+        background-color: #f1f1f1;
+        border: 1px solid #d4d4d4;
+        list-style-type: none;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    .menuitem:hover {
+        background-color: #f7f309;
+        text-shadow: 1px 1px rgb(7, 7, 7);
+    }
+
+    .menuitem:nth-child(5) {
+        background-color:#0704a3;
+        color: white;
+        font-weight: bolder;
+    }
+
+    a {
+        color: #a1969696;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+
+    @media (max-width: 800px) {
+        #sidebar {
+            width: auto;
+            position: relative;
+        } 
+        #main {
+            margin-right: 0;
+        }    
+       
+    }
+
+    @media (max-width: 600px) {
+        #menubar {
+            width: auto;
+            float: none;
+        }
+        #main {
+            margin: 0;
+        }    
+    }
+</style>
+
+
+
