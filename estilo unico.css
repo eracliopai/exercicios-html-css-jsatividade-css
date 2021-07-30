@@ -1,22 +1,22 @@
 <style> /* Estilo Unico: */
 
     body {
-        background-image: url(../css/img/background_53876.jpg);
+        background-image: url("./background_53876.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
 
     body {
-        color: #f7f309;
         font: 100% Lucida Sans, Tahoma;
+        color: #f7f309;
         margin: 20px;
         line-height: 26px;
     }
 
     .container {
         xmin-width: 900px;
-        background-image:url("../css/img/background_53876.jpg");
+        background-image:url("./background_53876.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
